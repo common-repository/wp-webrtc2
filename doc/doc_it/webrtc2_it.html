@@ -1,0 +1,87 @@
+<html lang="it">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<style>
+			.h2_overview {
+			color: #008000;
+			background-color: #D4D0C8;
+			text-shadow: 0 1px 3px rgba(0,0,0,.3);
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px #000;
+			text-align:center;
+			font: bold 16px/20px Georgia,"Times New Roman", Times,serif;
+			padding:10px;
+			margin-bottom: 5px;
+		}
+		</style>
+		<title>Istruzione WP-WebRTC2</title>
+	</head>
+	<body>
+		<div style="width: 730px; margin: auto; font-size: 14pt;">
+			<h3 style="text-align:center;">Istruzioni per l'utilizzo del plug-in di chat video WP-WebRTC2</h3>
+			<h2 class="h2_overview">GUI del plugin</h2>
+			<p>La vista generale del plug-in di chat video è presentata di seguito sotto forma di 7 aree grafiche:</p>
+			<p><img style="width:100%;" src="../img/wp-webrtc2-interface_0.png"></p>
+			<p><strong>1. Bandiera del plugin:</strong></p>
+			<p><img src="../img/wp-webrtc2-interface_1.png"><br>Al centro del banner c'è un pentagramma di icone del browser con cui funziona questo plug-in: Google Chrome, Fire Fox, Edge, Opera, Yandex.</p>
+			<p><strong>2. Finestra dei visitatori del sito web registrati:</strong></p>
+			<p><img style="float: left;margin-right: 5px;" src="../img/wp-webrtc2-interface_2.png"></p>
+			<p>Questo è un elenco di tutti i visitatori registrati del sito.<br>Nel campo "Stato" - significa il colore della lampadina:<br><img src="../../images/offline.png"><label>: il visitatore non è sul sito.</label><br><img src="../../images/online.png"><label>: il visitatore è sul sito.</label><br><img src="../../images/invite.png"><label>: il visitatore è invitato da qualcuno.</label><br><img src="../../images/hello.png"><label>: il visitatore ha risposto al tuo invito.</label></p><br>
+			<p><strong>3. Finestra di gestione dei plug-in:</strong></p>
+			<p><img style="float: left;margin-right: 5px;" src="../img/wp-webrtc2-interface_3.png"></p>
+			<p style="margin-top:27px;margin-bottom:5px">invitare qualcuno alla chat video</p>
+			<p style="margin-top:7px;margin-bottom:5px">escludere l'interlocutore dalla video chat</p>
+			<p style="margin-top:8px;">conto alla rovescia</p>
+			<p style="margin-top:-9px;">avviare la chat video</p>
+			<p style="margin-top:-9px;">terminare la chat video</p>
+			<p style="margin-top:25px;">inizia a registrare la chat video</p>
+			<p style="margin-top:-10px;">terminare la registrazione della chat video</p>
+			<b>Nota</b>: dopo aver premuto il pulsante <b>Start</b> per registrare una chat video, l'interlocutore invitato riceverà un messaggio che la videochiamata è in fase di registrazione da parte del suo interlocutore.<br>
+			Durante la registrazione della chat video, si verifica:<br>
+			1. Registrazione  flusso audio e il flusso video di due interlocutori di chat video.<br>
+			2. Registrazione  messaggi di testo di due interlocutori di chat video.<br>
+			3. Registrazione del processo di disegno sul tavolo da disegno di due interlocutori di chat video.<br>
+			4. Dopo aver premuto il pulsante Stop, all'utente verrà chiesto di salvare il risultato della registrazione della chat video nel formato <b>.webm</b> su disco locale.<br>
+			<p><strong>4. Finestra con un elenco di due partecipanti alla chat video:</strong></p>
+			<p><img style="float: left;margin-right: 5px;" src="../img/wp-webrtc2-interface_4.png"></p>
+			<p>Nella prima riga della tabella c'è il proprietario della stanza delle trattative, che invita l'interlocutore. Se fai clic sul suo nome, verrai indirizzato al suo profilo. Il pulsante "Choose file" serve per selezionare un file e trasferirlo all'interlocutore. Seleziona un file e fai clic sul pulsante Send. Apparirà una barra di avanzamento durante il trasferimento del file all'interlocutore. Campo "message": inserisci un messaggio lì e fai clic sul pulsante Send.</p>
+			<p><strong>5. Finestra combinata per la visualizzazione dei messaggi correnti:</strong></p>
+			<p><img style="float: left;" src="../img/wp-webrtc2-interface_5_1.png"></p>
+			<p>bottone <strong>"Chat"</strong> - la modalità di visualizzazione dei messaggi della segreteria telefonica, i partecipanti alla video chat.<br>
+			<p><img style="float: left;" src="../img/wp-webrtc2-interface_5_2.png"></p>
+			bottone <strong>"Dump"</strong> - modalità per la visualizzazione del processo di creazione di una chat video.<br><br>
+			bottone <strong>"Clear"</strong> - cancellare la casella di messaggio selezionata.<br>
+			bottone <strong>"Report"</strong> - salva i messaggi di testo della segreteria telefonica e dei partecipanti alla chat video o il protocollo di handshake in un file esterno in formato HTML.
+			<p><img style="float: left;" src="../img/wp-webrtc2-interface_5_3.png"></p>
+			bottone <strong>"Graph"</strong> - grafici che mostrano lo stato attuale della chat video.<br>
+			<p><strong>6,7 Due finestre per la visualizzazione dei flussi video e audio di due partecipanti alla chat video:</strong></p>
+			<p><img style="float: left;" src="../img/wp-webrtc2-interface_6_7.png"></p>
+			<p>La prima finestra del flusso video è il proprietario della sala riunioni. Cliccando sul suo nome verrai indirizzato al suo Profilo. Il numero della finestra si trova nell'angolo in alto a sinistra di ogni finestra del flusso video. Cliccandoci sopra, puoi aumentare le dimensioni della finestra con la visualizzazione della modalità "immagine nell'immagine". Premendo di nuovo si riporterà la finestra nella sua posizione iniziale.<br>Quando si sposta il cursore del mouse sul numero della finestra, viene visualizzato un menu - passaggio alla modalità di visualizzazione dello schermo del computer o viceversa - accensione della webcam.<br>L'interfaccia il controllo è progettato in modo tale che i pulsanti con i colori delle iscrizioni bianche non saranno disponibili. La logica incorporata del comportamento del plug-in cambia il colore delle etichette dei pulsanti in verde o rosso e sarà disponibile se appropriato. Ciò consente di evitare situazioni di emergenza quando il plug-in è controllato in modo errato dall'utente. (<b>Nota importante</b>: l'amministratore del sito non partecipa alla video chat per motivi di sicurezza, al fine di evitare che il suo login venga mostrato a tutti gli altri visitatori del sito).</p>
+
+			<p><img style="float: left;width:100%;" src="../../images/left_up_corner.png">Un partecipante alla chat video può ingrandire la propria finestra o quella dell'interlocutore facendo clic sul cerchio (1) o (2) con la visualizzazione della modalità picture-in-picture. Una nuova pressione riporta la finestra nella sua posizione originale.</p>
+
+			<p><img style="float: left;width:100%;" src="../../images/left_up_corner_menu.png">Quando passi il mouse sopra il cerchio (1), viene visualizzato un menu a discesa di due elementi: <b>screen</b> (o - <b>webcam</b>) e <b>board</b> ( oppure - <b >nessuna board</b>)<br>- screen/webcam - Cambia lo schermo dell'altro utente per condividere il tuo schermo o passare alla tua webcam.<br>- board/nessuna board- Attiva la modalità lavagna interattiva o fuori per disegnare.</p>
+
+			<p><strong>8 Profilo utente registrato:</strong></p>
+			<p><img style="float: left;" src="../img/wp-webrtc2-interface_8.png"></p>
+			<p>Un elemento - Utenti per chat video - è stato aggiunto al profilo utente. In caso di numero elevato di utenti registrati al sito, a questo punto per comodità, l'utente può creare la propria Lista Contatti per la video chat.</p>
+			<p><img style="float: left;width:100%;" src="../img/wp-webrtc2-interface_9.png"></p>
+			<p>Un elemento è stato aggiunto al profilo utente - Email:<br>1. Invia i messaggi autorisponditore della chat video alla mia email<br>2. Invia messaggi di testo della sessione di chat video alla mia email</p>
+			<h2 class="h2_overview">Come stabilire una connessione video</h2>
+			<p>1. Vai alla pagina del sito sotto il tuo login, dove è impostato lo shortcode [webrtc2].</p>
+			<p>2. Nella <strong>finestra dei visitatori registrati del sito</strong>, seleziona la checkbox dell'utente con cui vuoi stabilire una connessione video e clicca sul pulsante => (invita l'interlocutore a una video chat).<br>
+				2.1 Se la spia dell'utente selezionato è blu, significa che al momento non c'è nessun utente. In questo caso, puoi solo lasciargli un messaggio sull'autorisponditore inserendo un messaggio nel campo <b>messagge</b> e premendo il pulsante <strong>Send</strong>.<br>
+				2.2 Se la spia dell'utente selezionato è gialla, significa che l'utente è presente e riceverà un tono di chiamata. Per scoprire chi sta chiamando, questo utente può spostare il cursore del mouse sulla luce verde nella <strong>finestra dei visitatori che hanno effettuato l'accesso</strong>.<br>
+				2.3 Se l'utente che chiami accetta di rispondere alla tua chiamata, controllerà il tuo login e premerà il pulsante => (invita l'altra parte alla chat video). Dopo alcuni secondi, entrambi i partecipanti alla videochiamata riceveranno un segnale acustico <strong>Hello</strong> e il pulsante verde <strong>Start</strong> lampeggerà. Entrambi i partecipanti al collegamento video premono il pulsante <strong>Start</strong> e inizierà il processo di creazione di un collegamento video. (~ 10 secondi).<br>
+				2.4 Se l'utente che hai chiamato non accetta di rispondere alla tua chiamata, dopo 60 secondi. la tua chiamata verrà automaticamente annullata.</p>
+			<p>3. Durante la videochiamata, puoi:<br>
+				3.1 Scambia messaggi di testo.<br>
+				3.2 Inviare file l'un l'altro.<br>
+				3.3 Condividi il tuo schermo tra loro.<br>
+				3.4 Usa un tavolo da disegno interattivo.</p>
+		</div>
+		<footer>
+		<p style="border-top: 1px solid red;"><img src="../img/BY.gif">Belarus, Minsk © 2019. Developer: Oleg Klenitsky</p>
+		</footer>
+	</body>
+</html>

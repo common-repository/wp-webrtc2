@@ -1,0 +1,298 @@
+/**
+ * Description: CSS for backend.
+ *
+ * CSS version 3
+ *
+ * @category   webrtc2-backend.css
+ * @package    WP-WebRTC2
+ * @author     Oleg Klenitsky <klenitskiy.oleg@mail.ru>
+ * @version    1.7.4
+ * @license    GPLv2 or later
+ */
+
+/* for page=webrtc2_overview*/
+.content_overview {
+  width:80%; 
+  margin:auto;
+}
+.h2_overview {
+  color: #008000;
+  background-color: #D4D0C8;
+  text-shadow: 0 1px 3px rgba(0,0,0,.3);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #000;
+  text-align:center;
+  font: bold 16px/20px Georgia,"Times New Roman", Times,serif;
+  padding:10px;
+  margin: auto;
+  width:90%;
+}
+.p_overview {
+  font-size:18px;
+  width:90%;
+  margin:20px auto;
+}
+/* for Profile*/
+#your-profile legend {
+  font-size:14px;
+}
+.fieldset_profile {
+  width: 700px;
+  height: 210px;
+  display: flex;
+  flex-basis: 100%;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  border: 1px groove;
+  border-color: black;
+}
+.div_users {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+  }
+.div_contact {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}
+.div_users {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  background-color: #C1C1C1;
+  flex-basis: 45%;
+}
+.div_btns {
+  display: flex;
+  align-items: center;
+  background-color: #F0F0F1;
+  justify-content: center;
+  flex-basis: 9.5%;
+  flex-flow: row wrap;
+}
+.div_contact {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  background-color: #C1C1C1;
+  flex-basis: 45%;
+}
+.btn_tbl_profile {
+  font-size: 12px;
+  height: 30px;
+  flex-basis: 90%;
+  background-color: #E0E0E0;
+  border: 1px solid silver;
+  border-radius: 4px;
+}
+.caption_tbl h4, .head_tbl h4 {
+  margin: 0;
+}
+.caption_tbl h4 {
+  background-color: #E0E0E0;
+}
+.head_tbl {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #E0E0E0;
+}
+.body_tbl {
+  /*display: flex;*/
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  max-height: 145px;
+  height: 145px;
+  overflow-y: auto;
+}
+.foot_tbl {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 0;
+}
+.foot_tbl input, .foot_tbl button {
+  display: block;
+  height: 20px;
+  min-height: 20px;
+}
+.tbody_fields {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #E0E0E0;
+  height: 26px;
+  padding: 0;
+}
+@media screen and (max-width: 782px) {
+  .form-table tr td fieldset {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-basis: 100%;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    max-width: none;
+    box-sizing: border-box;
+    border-color: blue;
+  }
+  .div_users {
+    border-top: 1px solid blue;
+    border-right: 1px solid blue;
+  }
+  .div_contact {
+    border-top: 1px solid blue;
+    border-left: 1px solid blue;
+  }
+  input[type=checkbox], input[type=radio] {
+    height: 1rem;
+    width: 1rem;
+  }
+}
+
+
+
+
+
+/* Vintage pop-up window for Chart of stun servers*/
+.win-popup {
+  width:100%;
+  height:100%;
+  background-color: rgba(0,0,0,0.5);
+  overflow:hidden;
+  position:fixed;
+  top:0;
+  left:0;
+}
+.win-popup .popup-content {
+  width: 680px;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+.popup-content {
+  position: relative;
+  margin: 0 0 20px 0;
+  float:left;
+  width: 100%;
+  height:120px;
+  top: 10px;
+  border-radius: 10px;
+
+  background: #a5a39d;
+  box-shadow:
+  inset 0 3px 8px 1px rgba(0,0,0,0.2),
+  0 1px 0 rgba(255,255,255,0.5);
+}
+.popup-content:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -8px; right: -8px; bottom: -8px; left: -8px;
+  border-radius: inherit;
+  background: #ccc;
+  background: linear-gradient(#f2f2f2, #ababab);
+  box-shadow: 0 0 10px rgba(0,0,0,0.3), 0 1px 1px rgba(0,0,0,0.25);
+}
+.popup-header {
+  padding: 10px 10px;
+}
+.popup-header h2 {
+  color: #008000;
+  background-color: #D4D0C8;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.3);
+  font:22px Arial, Helvetica, sans-serif;
+  position: relative;
+  margin: 0 0 0 0;
+  padding: 0 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 10px #000;
+  -moz-box-shadow: 0px 0px 10px #000;
+  box-shadow: 0px 0px 10px #000;
+}
+.popup-body {
+  width: 660px;
+  height: 300px;
+  padding: 5px;
+  margin:0 0 0 5px;
+  background-color: #D4D0C8;
+}
+.popup-footer {
+  position: relative;
+  text-align: left;
+  padding: 0;
+  margin:10px;
+}
+/* pop-up close button */
+.win-popup .btn-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;padding: 0;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #ccc;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+  background-color: rgba(61, 61, 61, 0.8);
+  -webkit-box-shadow: 0px 0px 10px #000;
+  -moz-box-shadow: 0px 0px 10px #000;
+  box-shadow: 0px 0px 10px #000;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 20px;
+  -webkit-transition: all ease .8s;
+  -moz-transition: all ease .8s;
+  -ms-transition: all ease .8s;
+  -o-transition: all ease .8s;
+  transition: all ease .8s;
+}
+.win-popup .btn-close:before {
+  color: rgba(255, 255, 255, 0.9);
+  content: "X";
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+  font-size: 14px;
+}
+.win-popup .btn-close:hover {
+  background-color: rgba(252, 20, 0, 0.8);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+/* for webrtc2_settings page*/
+.tbl_setting, .tbl_setting th, .tbl_setting td  {
+  border: 1px solid #8c8f94;
+  border-collapse: collapse;
+}
+.blinking {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  animation:blinkingText 0.8s infinite;
+}
+@keyframes blinkingText {
+  50%{  color: lightgreen;  }
+  100%{ color: green; }
+}
+img.userphoto.useravatar.img-fluid {
+  vertical-align: middle;
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+}

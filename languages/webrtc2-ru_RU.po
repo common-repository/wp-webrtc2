@@ -1,0 +1,911 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-WebRTC2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-26 06:35+0000\n"
+"PO-Revision-Date: 2023-06-27 04:41+0000\n"
+"Last-Translator: \n"
+"Language-Team: Русский\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.2.2\n"
+"X-Domain: webrtc2"
+
+#: class-webrtc2-core.php:1074
+msgid "1. Insert a short code [webrtc2] on any page to display video-chat."
+msgstr ""
+"1. Вставьте shortсode [webrtc2] на любую страницу для отображения видео-чата."
+
+#: class-webrtc2-core.php:1369
+msgid "1. Login to your Dashboard at"
+msgstr "1. Войдите в свою панель управления в"
+
+#: class-webrtc2-core.php:594
+msgid "1. №"
+msgstr ""
+
+#: class-webrtc2-core.php:1086
+msgid ""
+"10. The participant of the video chat can enlarge his or the interlocutor's "
+"window by clicking on the circle (1) or (2) with the display of the 'picture "
+"in picture' mode. Pressing again - brings the window back to its original "
+"position."
+msgstr ""
+"10. Участник видеочата может увеличить свое окно или окно собеседника, нажав "
+"на кружок (1) или (2) с отображением режима «картинка в картинке». <br>"
+"Повторное нажатие возвращает окно в исходное положение."
+
+#: class-webrtc2-core.php:1087
+msgid ""
+"11. When you move the mouse cursor over the circle (1), a drop-down menu of "
+"two items appears: <b>screen</b>(or- <b>webcam</b>) and <b>board</b>( or- <b>"
+"no board</b>)<br>- screen/webcam - switches the screen of the interlocutor "
+"to the mode of sharing your screen or switching to a webcam.<br>- board/no "
+"doard - turns the interactive drawing board mode on or off."
+msgstr ""
+"11. При наведении курсора мыши на кружок (1) появляется выпадающее меню из "
+"двух пунктов: <b>экран</b> (или- <b>веб-камера</b> ) и <b>доска</b> (или- <b>"
+"без доски</b> )<br>\n"
+"- экран/веб-камера - переключает экран собеседника в режим совместного "
+"использования экрана или переключения на веб-камеру.<br>\n"
+"- доска/без доски - включает или выключает режим интерактивной чертежной "
+"доски."
+
+#: class-webrtc2-core.php:1075
+msgid ""
+"2. Make sure there are registered users on this site. Recommendation: "
+"username - no more than 10 characters. <br>In window 'Members of video-chat',"
+" in the first line of the table - the owner of the negotiation room.<br> If "
+"you click on his name, you will be taken to his Profile."
+msgstr ""
+"2. Убедитесь, что на этом сайте есть зарегистрированные пользователи. "
+"Рекомендация: имя пользователя - не более 10 символов.<br>\n"
+"В окне \"Members of video-chat\", в первой строке таблицы - владелец "
+"переговорной.<br>\n"
+"Если вы нажмете на его имя, вы попадете в его профиль."
+
+#: class-webrtc2-core.php:1371
+msgid "2. Press button <b>Instruction</b> in the"
+msgstr "2. Нажмите кнопку <b>Instruction</b> в"
+
+#: class-webrtc2-core.php:601
+msgid "2. User name"
+msgstr ""
+
+#: class-webrtc2-core.php:1372
+msgid "3. Copy-Paste the contents of the popup window to the box below"
+msgstr "3. Скопируйте содержимое всплывающего окна в поле ниже:"
+
+#: class-webrtc2-core.php:1076
+msgid ""
+"3. Plugin will create the (Country, City, IP address) fields in the user's "
+"profile when he registeres on this site.<br>These fields will be displayed "
+"in the 'Select guest of video-chat' table of the WP-WebRTC2 plugin."
+msgstr ""
+"3. Плагин создаст поля (Страна, Город, IP адрес) в профиле пользователя, "
+"когда он зарегистрируется на этом сайте.<br>\n"
+"Эти поля будут отображаться в окне «Select guest of video-chat» плагина WP-"
+"WebRTC2."
+
+#: class-webrtc2-core.php:608
+msgid "3. Role"
+msgstr ""
+
+#: class-webrtc2-core.php:615
+msgid "4. Initiator"
+msgstr ""
+
+#: class-webrtc2-core.php:1077
+msgid ""
+"4. The site administrator can choose the option of displaying the video-chat "
+"on the site page: dark or light - in the plugin settings (Appearance)."
+msgstr ""
+"4. Администратор сайта может выбрать вариант отображения видео-чата на "
+"странице сайта: темный или светлый - в настройках плагина (Appearance)."
+
+#: class-webrtc2-core.php:1079
+msgid ""
+"5. The plugin can record the process of video-chat between two participants, "
+"as well as their exchange of text messages.<br>To view all messages, click "
+"the Chat button in the 'Protocol of ...' window."
+msgstr ""
+"5. Плагин может записывать процесс создания видеочата между двумя "
+"участниками, а также их обмен текстовыми сообщениями.<br>\n"
+"Чтобы просмотреть все сообщения, нажмите кнопку Chat в окне «Protocol of ..."
+"»."
+
+#: class-webrtc2-core.php:1081
+msgid "6. During the video chat, both participants can exchange files."
+msgstr "6. Во время видеочата оба участника могут обмениваться файлами."
+
+#: class-webrtc2-core.php:1082
+#| msgid ""
+#| "7. The Save button in window 'Protocol of ...' will prepare a protocol "
+#| "file of creating a connection between two participants in the video-chat."
+#| "<br>This file can be transferred to technical workers - those responsible "
+#| "for the quality of communication."
+msgid ""
+"7. The Report button in window 'Protocol of ...' will prepare a protocol "
+"file of creating a connection between two participants in the video-chat.<br>"
+"This file can be transferred to technical workers - those responsible for "
+"the quality of communication."
+msgstr ""
+"7. Кнопка Report в окне \"Protocol of ...\" подготовит файл протокола "
+"создания соединения между двумя участниками видеочата.<br>\n"
+"Этот файл можно передать техническим работникам - ответственным за качество "
+"связи."
+
+#: class-webrtc2-core.php:1083
+msgid ""
+"8. The Graph button in window 'Protocol of ...' displays the current state "
+"of the quality of communication between two participants in the video-chat."
+msgstr ""
+"8. Кнопка Graph в окне \"Protocol of ...\" отображает текущее состояние "
+"качества связи между двумя участниками видео-чата."
+
+#: class-webrtc2-core.php:1085
+msgid ""
+"9. If a video chat participant notices a decrease in the quality of "
+"communication, he can reduce the requirement for communication parameters by "
+"clicking on the bar in the left lower corner of his window:"
+msgstr ""
+"9. Если участник видеочата заметит снижение качества связи, он может "
+"уменьшить требование к параметрам связи, нажав на полосу в левом нижнем углу "
+"своего окна:"
+
+#: class-webrtc2-core.php:602
+msgid ""
+"A unique username that is created when registering on the site. The "
+"recommended username length is 9 characters. Field format: who called (who "
+"he called)."
+msgstr ""
+"Уникальный логин, который создается при регистрации пользователя на сайте. "
+"Рекомендуемая длина имени пользователя — 9 символов. Формат поля: кто звонил "
+"(кому звонил)."
+
+#: class-webrtc2-shortcode.php:476
+msgid "Access to video-chat is prohibited for user name: "
+msgstr ""
+
+#: class-webrtc2-core.php:747
+msgid "Additional information:"
+msgstr ""
+
+#: class-webrtc2-core.php:1190
+msgid "Appearance"
+msgstr ""
+
+#: class-webrtc2-tbl-stat.php:283
+msgid "Browser"
+msgstr ""
+
+#: class-webrtc2-core.php:1028
+msgid "call statistics"
+msgstr ""
+
+#: class-webrtc2-tbl-srv.php:358
+msgid "Check date"
+msgstr ""
+
+#: class-webrtc2-core.php:470
+msgid "City"
+msgstr ""
+
+#: class-webrtc2-tbl-srv.php:356 class-webrtc2-tbl-stat.php:280
+msgid "Country"
+msgstr ""
+
+#: class-webrtc2-core.php:467
+msgid "Country code"
+msgstr ""
+
+#: class-webrtc2-core.php:468
+msgid "Country name"
+msgstr ""
+
+#: class-webrtc2-core.php:713
+msgid "Country, Region, City - geographic location of the Stun server."
+msgstr "Страна, Регион, Город - географическое расположение сервера Stun."
+
+#: class-webrtc2-core.php:561
+msgid "dark - file is connected: "
+msgstr ""
+
+#: class-webrtc2-tbl-stat.php:281
+msgid "Date start"
+msgstr ""
+
+#: class-webrtc2-tbl-stat.php:282
+msgid "Date stop"
+msgstr ""
+
+#: class-webrtc2-tbl-srv.php:133 class-webrtc2-tbl-stat.php:134
+msgid "Delete"
+msgstr ""
+
+#. Description of the plugin
+msgid "Designed for video communication WebRTC."
+msgstr ""
+
+#: class-webrtc2-core.php:1155
+msgid "Disable video-chat for"
+msgstr ""
+
+#: class-webrtc2-core.php:1141
+msgid "Duration of remember of call statistics data"
+msgstr ""
+
+#: class-webrtc2-core.php:1148
+msgid "Duration of the video-chat"
+msgstr ""
+
+#: class-webrtc2-core.php:651
+msgid ""
+"Field format: [browser name, browser version]. Information about the browser "
+"from which the user establishes a video connection."
+msgstr ""
+"Формат поля: [имя браузера, версия браузера]. Информация о браузере, из "
+"которого пользователь устанавливает видео соединение."
+
+#: class-webrtc2-core.php:630
+msgid ""
+"Field format: [flag country code]. If you move the mouse cursor over this "
+"field, a hint will appear - the city. This is the geographic location from "
+"which the video connection is made by the user. This information is supplied "
+"by the WHO-IS provider, which is selected by the site administrator in the "
+"settings menu of this plugin. This feature can be disabled by the site "
+"administrator by selecting the None option in the plugin's settings."
+msgstr ""
+"Формат поля: [флаг код страны]. Если навести курсор мыши на это поле, "
+"появится подсказка - город. Это географическое местоположение, из которого "
+"пользователь устанавливает видео соединение. Эта информация предоставляется "
+"провайдером WHO-IS, который выбирается администратором сайта в меню Settings "
+"этого плагина. Эту функцию может отключить администратор сайта, выбрав опцию "
+"«None» в настройках плагина."
+
+#: class-webrtc2-core.php:644
+msgid ""
+"Field format: [Y-m-d H:i:s]. The end time of the video call. This moment "
+"comes when the user presses the Stop button or by the command of the "
+"countdown timer after the expiration of the time set by the site "
+"administrator in the settings of this plugin."
+msgstr ""
+"Формат поля: [Ymd H:i:s]. Время окончания видеозвонка. Этот момент наступает,"
+" когда пользователь нажимает кнопку «Stop» или по команде таймера обратного "
+"отсчета по истечении времени, установленного администратором сайта в "
+"настройках данного плагина."
+
+#: class-webrtc2-core.php:637
+msgid ""
+"Field format: [Y-m-d H:i:s]. The start time of the video call. At this point,"
+" the video link countdown timer starts. The duration of the video "
+"communication session is set by the site administrator in the settings of "
+"this plugin."
+msgstr ""
+"Формат поля: [Ymd H:i:s]. Время начала видеозвонка. В этот момент "
+"запускается таймер обратного отсчета видеосвязи. Продолжительность сеанса "
+"видеосвязи задается администратором сайта в настройках этого плагина."
+
+#: class-webrtc2-core.php:1233
+msgid "For the listed user name, video-chat will be prohibited."
+msgstr "Для указанного имени пользователя видео-чат будет запрещен."
+
+#: class-webrtc2-core.php:1283
+msgid "For the selected category of visitors - a video-chat will be available."
+msgstr "Для выбранной категории посетителей - будет доступен видео-чат."
+
+#: class-webrtc2-core.php:749
+msgid "home page of plugin"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/wp-webrtc2/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.adminkov.bcr.by/"
+msgstr ""
+
+#: class-webrtc2-core.php:1342
+msgid "If the field is empty, plugin will choose itself"
+msgstr "Если поле пустое, плагин выберет сам."
+
+#: class-webrtc2-core.php:1211
+msgid ""
+"in days. Set to 0 - the data in the 'call statistics' table will not be "
+"remembered."
+msgstr ""
+"в днях. Установите в 0 - данные в таблице \"WP-WebRTC2: call statistics\" не "
+"будут запоминаться."
+
+#: class-webrtc2-core.php:1222
+msgid "in hours. After the set period of time, the video chat will be stoped."
+msgstr ""
+"в часах. По истечении установленного периода времени видеочат будет "
+"остановлен."
+
+#: class-webrtc2-tbl-stat.php:278
+msgid "Initiator"
+msgstr ""
+
+#: class-webrtc2-shortcode.php:484
+msgid "Instructions for using the video-chat plugin in: "
+msgstr ""
+
+#: class-webrtc2-core.php:471 class-webrtc2-tbl-srv.php:354
+msgid "IP address"
+msgstr ""
+
+#: class-webrtc2-core.php:765 class-webrtc2-core.php:992
+msgid "Items deleted"
+msgstr ""
+
+#: class-webrtc2-core.php:802
+msgid "Items updated"
+msgstr ""
+
+#: class-webrtc2-core.php:561
+msgid "light - file is connected: "
+msgstr ""
+
+#: class-webrtc2-core.php:791 class-webrtc2-core.php:1018
+msgid "No items selected for create report"
+msgstr ""
+
+#: class-webrtc2-core.php:772 class-webrtc2-core.php:999
+msgid "No items selected for delete"
+msgstr ""
+
+#: class-webrtc2-core.php:817
+msgid "No items selected for update"
+msgstr ""
+
+#: class-webrtc2-core.php:1122
+msgid "Note: Insert a short code [webrtc2] on any page to display video-chat."
+msgstr ""
+"Примечание. Вставьте short code [webrtc2] на любой странице для отображения "
+"видеочата."
+
+#. Author of the plugin
+msgid "Oleg Klenitsky <klenitskiy.oleg@mail.ru>"
+msgstr ""
+
+#: class-webrtc2-core.php:587
+msgid "Overview"
+msgstr ""
+
+#: class-webrtc2-core.php:1073
+msgid "overview"
+msgstr ""
+
+#: class-webrtc2-core.php:748
+msgid "page the WordPress repository"
+msgstr ""
+
+#: class-webrtc2-core.php:1197
+msgid "Place on page"
+msgstr ""
+
+#: class-webrtc2-tbl-srv.php:353
+msgid "Port"
+msgstr ""
+
+#: class-webrtc2-tbl-srv.php:355
+msgid "Provider"
+msgstr ""
+
+#: class-webrtc2-core.php:678
+msgid ""
+"Record number in the database. It is generated automatically  and is unique "
+"in the table."
+msgstr ""
+"Номер записи в базе данных. Он генерируется автоматически и является "
+"уникальным в таблице."
+
+#: class-webrtc2-core.php:595
+msgid ""
+"Record number in the database. It is generated automatically when a user "
+"makes or ends a call and is unique in the table."
+msgstr ""
+"Номер записи в базе данных. Он генерируется автоматически, когда "
+"пользователь стартует или завершает вызов, и является уникальным в таблице."
+
+#: class-webrtc2-core.php:469
+msgid "Region"
+msgstr ""
+
+#: class-webrtc2-tbl-srv.php:134 class-webrtc2-tbl-stat.php:135
+msgid "Report"
+msgstr ""
+
+#: class-webrtc2-core.php:784 class-webrtc2-core.php:1011
+msgid "Report created"
+msgstr ""
+
+#: class-webrtc2-tbl-srv.php:359
+msgid "Response"
+msgstr ""
+
+#: class-webrtc2-tbl-stat.php:277
+msgid "Role"
+msgstr ""
+
+#: class-webrtc2-core.php:671
+msgid ""
+"Search - search data by fields: Server name, IP address, Time zone. To reset "
+"the search - make the search field empty and click the Search button."
+msgstr ""
+"Search - поиск данных по полям: Server name, IP address, Time zone. Чтобы "
+"сбросить поиск - сделайте поле поиска пустым и нажмите кнопку Search."
+
+#: class-webrtc2-core.php:1343
+msgid "Select one server STUN from the list: "
+msgstr "Выберите один STUN сервер из списка и вставьте в поле STUN server:"
+
+#: class-webrtc2-core.php:1331
+msgid "Select provider information of IP address of registered site visitor."
+msgstr ""
+"Выберите поставщика информации об IP-адресе зарегистрированного посетителя "
+"сайта."
+
+#: class-webrtc2-core.php:1475
+msgid "Select the video chat display mode on the site page."
+msgstr "Выберите режим отображения видеочата на странице сайта."
+
+#: class-webrtc2-core.php:1446
+msgid "Selecting the external appearance of the plugin on the video-chat page."
+msgstr "Выбор внешнего вида плагина на странице видео-чата."
+
+#: class-webrtc2-tbl-srv.php:352
+msgid "Server name"
+msgstr ""
+
+#: class-webrtc2-core.php:451 class-webrtc2-core.php:452
+msgid "Servers"
+msgstr ""
+
+#: class-webrtc2-core.php:437 class-webrtc2-core.php:438
+msgid "Settings"
+msgstr ""
+
+#: class-webrtc2-core.php:1100
+msgid "settings"
+msgstr ""
+
+#: class-webrtc2-core.php:547
+msgid ""
+"Site administrator enters one value Stun server. The recommended list is "
+"located below on the settings page and is optional. Session Traversal "
+"Utilities for NAT (STUN) is a protocol for finding and determining the "
+"public address of each node and any restrictions in the router connected to "
+"the node that prevent direct connection to the node. The host will send a "
+"request to the STUN server on the Internet, which will respond with the "
+"public address of the client and whether the host behind the NAT router is "
+"available or not. If the site administrator fills in the Stun server field, "
+"the plugin will use the value of this field to establish the user's video "
+"connection. If the site administrator leaves this field empty, the plugin "
+"will select the optimal Stun server, taking into account the user's Time "
+"zone, in order to minimize the delay in the response time of the Stun server "
+"to user browser requests. Plugin once a day automatically checks each of "
+"their 375 Stun servers for operability and remembers the reaction time of "
+"each. The plugin will offer the user's browser a Stun server with the same "
+"Time zone and its minimum response delay."
+msgstr ""
+"Администратор сайта вводит одно значение Stun server. Рекомендуемый список "
+"расположен ниже на странице настроек и является необязательным. Session "
+"Traversal Utilities for NAT (STUN) — это протокол для поиска и определения "
+"публичного адреса каждого узла и любых ограничений в маршрутизаторе, "
+"подключенном к узлу, которые препятствуют прямому подключению к узлу. Хост "
+"отправит запрос на STUN-сервер в Интернете, который ответит общедоступным "
+"адресом клиента и будет ли доступен хост за NAT-маршрутизатором или нет. "
+"Если администратор сайта заполнит поле Stun server, плагин будет "
+"использовать значение этого поля для установления видеосоединения "
+"пользователя. Если администратор сайта оставит это поле пустым, плагин "
+"подберет оптимальный сервер Stun с учетом часового пояса пользователя, чтобы "
+"свести к минимуму задержку времени отклика сервера Stun на запросы браузера "
+"пользователя. Плагин раз в сутки автоматически проверяет каждый из своих 375 "
+"серверов Stun на работоспособность и запоминает время реакции каждого. "
+"Плагин предложит браузеру пользователя сервер Stun с тем же часовым поясом и "
+"его минимальной задержкой ответа."
+
+#: class-webrtc2-core.php:554
+msgid ""
+"Site administrator follows the instructions in the Settings -> Turn server "
+"section of the plugin (paragraph 1-3). Click the Execute button (a message "
+"will appear below: data received). Click the Save plugin settings button.<br>"
+"Some routers using NAT apply a restriction called 'Symmetric NAT'. This "
+"means that the router will only accept connections from nodes to which the "
+"first node was previously connected. Traversal Using Relays around NAT (TURN)"
+" is designed to circumvent the 'Symmetric NAT' restriction by opening a "
+"connection to the TURN server and relaying all information through this "
+"server. The first node makes a connection to the TURN server and tells the "
+"other node to send packets to this server, which will then be forwarded to "
+"the first node. Obviously they come with some overhead, so this is only used "
+"if there are no other alternatives."
+msgstr ""
+"Администратор сайта следует инструкциям в разделе Настройки -> Turn server "
+"плагина (пункт 1-3). Нажмите кнопку «Execute» (ниже появится сообщение: "
+"данные получены). Нажмите кнопку Сохранить настройки плагина.\n"
+"Некоторые маршрутизаторы, использующие NAT, применяют ограничение под "
+"названием «Симметричный NAT». Это означает, что маршрутизатор будет "
+"принимать соединения только от узлов, к которым ранее был подключен первый "
+"узел. Обход с использованием ретрансляции вокруг NAT (TURN) предназначен для "
+"обхода ограничения «Симметричный NAT» путем открытия соединения с сервером "
+"TURN и ретрансляции всей информации через этот сервер. Первый узел "
+"устанавливает соединение с сервером TURN и сообщает другому узлу отправлять "
+"пакеты на этот сервер, которые затем будут перенаправлены на первый узел. "
+"Очевидно, что они сопряжены с некоторыми накладными расходами, поэтому они "
+"используются только в том случае, если нет других альтернатив."
+
+#: class-webrtc2-core.php:444 class-webrtc2-core.php:445
+msgid "Statistic"
+msgstr ""
+
+#: class-webrtc2-core.php:809
+msgid "Stun error: "
+msgstr ""
+
+#: class-webrtc2-core.php:1176
+msgid "STUN server"
+msgstr ""
+
+#: class-webrtc2-core.php:727
+msgid ""
+"Stun server health check time, which is performed by the plugin once a day, "
+"fixing the response time of the Stun server to a request from the plugin."
+msgstr ""
+"Время проверки работоспособности сервера Stun, которое выполняется плагином "
+"один раз в день, фиксируя время ответа сервера Stun на запрос от плагина."
+
+#: class-webrtc2-core.php:827
+msgid "stun servers"
+msgstr ""
+
+#: class-webrtc2-core.php:750
+msgid "support page of plugin"
+msgstr ""
+
+#: class-webrtc2-core.php:671
+msgid ""
+"Table: stun servers - contains information about public servers involved in "
+"organizing video communication by technology WebRTC. Part of the table "
+"fields can be hidden if necessary using the option (Screen Options). The "
+"content of the table is imported by the plugin from the file ..."
+"\\plugins\\wp-webrtc2\\settings\\webrtc2-stun-servers.php. The site "
+"administrator can add new data (Server name, port) to this file. The "
+"remaining fields of the table are formed by the plugin itself. To "
+"automatically update the data in the table, you must enable the 'WHO-IS "
+"service' option in the settings of this plugin. The table can be sorted, "
+"searched by fields: Server name, IP address, Time zone.<br>Bulk actions:<br>"
+"1. Delete - removes previously marked rows from the table.<br>2. Report - "
+"generates a report file from the previously marked rows of the table in HTML "
+"format.<br>3. Update - updates previously marked table rows. The plugin "
+"automatically updates all table data once a day.<br>While this action is "
+"running, the 'Response' field may contain the following runtime errors:"
+msgstr ""
+"Таблица: WP-WebRTC2: stun servers - содержит информацию об общедоступных "
+"серверах, задействованных в организации видеосвязи по технологии WebRTC. "
+"Часть полей таблицы при необходимости можно скрыть с помощью опции Screen "
+"options(Параметры экрана). Содержимое таблицы импортируется плагином из "
+"файла ...\\plugins\\wp-webrtc2\\settings\\webrtc2-stun-servers.php. "
+"Администратор сайта может добавить в этот файл новые данные (имя сервера, "
+"порт). Остальные поля таблицы формируются самим плагином. Для "
+"автоматического обновления данных в таблице необходимо включить опцию «WHO-"
+"IS service» в настройках этого плагина. Таблицу можно сортировать, искать по "
+"полям: Server name, IP address, Time zone.<br>\n"
+"Bulk actions:<br>\n"
+"1. Delete - удаляет ранее отмеченные строки из таблицы.<br>\n"
+"2. Report - формирует файл отчета из ранее отмеченных строк таблицы в "
+"формате HTML.<br>\n"
+"3. Update - обновляет ранее отмеченные строки таблицы. Плагин автоматически "
+"обновляет все данные таблицы один раз в день.<br>\n"
+"Во время выполнения этого действия поле «Response» может содержать следующие "
+"ошибки времени выполнения:\n"
+
+#: class-webrtc2-core.php:588
+msgid ""
+"Table: User call statistics - contains information about calls made by users "
+"registered on the site. The table consists of 9 fields in which the data can "
+"be sorted in any order. By 4 fields (user name, role, user IP, browser) it "
+"is possible to search for relevant information. If the table is overflowing "
+"with data, part of the table data can be deleted using bulk actions (delete)."
+" Part of the table fields can be hidden if necessary using the option "
+"(Screen Options). <br>Bulk actions:<br>1. Delete - removes previously marked "
+"rows from the table.<br>2. Report - generates a report file from the "
+"previously marked rows of the table in HTML format.<br>Search - search data "
+"by fields: User name, Role, User IP, Browser. To reset the search - make the "
+"search field empty and click the Search button."
+msgstr ""
+"Таблица: WP-WebRTC2: call statistics - содержит информацию о звонках, "
+"совершенных пользователями, зарегистрированными на сайте. Таблица состоит из "
+"9 полей, в которых данные можно сортировать в любом порядке. По 4 полям "
+"(user name, role, user IP, browser) можно искать нужную информацию. Если "
+"таблица переполнена данными, часть данных таблицы можно удалить с помощью "
+"bulk actions (delete). Часть полей таблицы при необходимости можно скрыть с "
+"помощью опции (Screen Options).<br>\n"
+"Bulk actions:<br>\n"
+"1. Delete - удаляет ранее отмеченные строки из таблицы.<br>\n"
+"2. Report - формирует файл отчета из ранее отмеченных строк таблицы в "
+"формате HTML.<br>\n"
+"Search - поиск данных по полям: User name, Role, User IP, Browser. Чтобы "
+"сбросить поиск - сделайте поле поиска пустым и нажмите кнопку Search."
+
+#: class-webrtc2-core.php:685
+msgid ""
+"The name of the Stun server. Used by the plugin to determine the IP address "
+"of the router (public address) of the user who establishes a video "
+"connection using WebRTC technology."
+msgstr ""
+"Имя сервера Stun. Используется плагином для определения IP-адреса роутера "
+"(публичного адреса) пользователя, который устанавливает видео соединение по "
+"технологии WebRTC."
+
+#: class-webrtc2-core.php:575 class-webrtc2-core.php:658
+msgid "The number of elements on the page:"
+msgstr ""
+
+#: class-webrtc2-core.php:692
+msgid ""
+"The port number of the Stun server that the user connects to to obtain their "
+"public IP address."
+msgstr ""
+"Номер порта сервера Stun, к которому подключается пользователь для получения "
+"общедоступного IP-адреса."
+
+#: class-webrtc2-core.php:706
+msgid ""
+"The provider that issued the IP address to the owner of the Stun server."
+msgstr "Провайдер, выдавший IP-адрес владельцу Stun-сервера."
+
+#: class-webrtc2-core.php:699
+msgid ""
+"The public IP address of the Stun server. The numeric equivalent of the "
+"server name."
+msgstr ""
+"Общедоступный IP-адрес сервера Stun. Числовой эквивалент имени сервера."
+
+#: class-webrtc2-core.php:734
+msgid ""
+"The response of the Stun server to the plugin request. The response contains "
+"the public IP address and port number of the site where the plugin is "
+"installed. In case of temporary inoperability of the Stun server, the plugin "
+"writes the value - failed to the table. The total execution time of a PHP "
+"script cannot exceed 5 minutes. However, when checking the health of the "
+"total number of 375 stun servers, a situation may occur when the total time "
+"of the script reaches its maximum value - 5 minutes. In this case, the "
+"script stops its work. The site administrator may notice that the last part "
+"of the stun server list has the date of the previous health check. In this "
+"case, you should mark this part of the list and repeat the check using: bulk "
+"actions - update. If the site administrator notices that some of the stun "
+"servers for a certain time (1-2 weeks) do not pass the automatic check "
+"successfully, he can delete the compromised stun servers using: bulk actions "
+"- delete.<br>If the administrator used the Bulk actions: Update command, - "
+"manually will appear in the Response field. If there was an automatic re-"
+"updating of the data in the Response field will appear - auto."
+msgstr ""
+"Ответ сервера Stun на запрос плагина. Ответ содержит общедоступный IP-адрес "
+"и номер порта сайта, на котором установлен плагин. В случае временной "
+"неработоспособности сервера Stun плагин записывает в таблицу значение - "
+"failed. Общее время выполнения скрипта PHP не может превышать 5 минут. "
+"Однако при проверке работоспособности общего количества 375 stun-серверов "
+"может возникнуть ситуация, когда общее время работы скрипта достигает своего "
+"максимального значения — 5 минут. В этом случае скрипт останавливает свою "
+"работу. Администратор сайта может заметить, что в последней части списка "
+"stun-серверов указана дата предыдущей проверки работоспособности. В этом "
+"случае следует отметить эту часть списка и повторить проверку с помощью: "
+"bulk actions - update. Если администратор сайта заметит, что некоторые из "
+"stun-серверов в течение определенного времени (1-2 недели) не проходят "
+"автоматическую проверку успешно, он может удалить скомпрометированные stun-"
+"сервера с помощью: bulk actions - delete.<br>\n"
+"Если администратор использовал команду Bulk actions: Update, в поле Response "
+"появится - manually. Если было автоматическое повторное обновление данных, в "
+"поле Response появится - auto."
+
+#: class-webrtc2-core.php:741
+msgid ""
+"The response time of the Stun server to a plugin request about the current "
+"health of the Stun server."
+msgstr ""
+"Время ответа сервера Stun на запрос плагина о текущем состоянии сервера Stun."
+
+#: class-webrtc2-core.php:561
+msgid ""
+"The site administrator determines the color scheme (dark or light) of the "
+"chat video on the site page."
+msgstr ""
+"Администратор сайта определяет цветовую схему (темная или светлая) видео "
+"чата на странице сайта."
+
+#: class-webrtc2-core.php:508
+msgid ""
+"The site administrator determines the duration of data storage in the 'Call "
+"Statistics' table in the range from 1 to 365 days. If set to 0 days, then "
+"the data in the 'call statistics' table will not be remembered."
+msgstr ""
+"Администратор сайта определяет продолжительность хранения данных в таблице "
+"«Call Statistics» в диапазоне от 1 до 365 дней. Если установлено 0 дней, то "
+"данные в таблице «статистика вызовов» не будут запоминаться."
+
+#: class-webrtc2-core.php:515
+msgid ""
+"The site administrator determines the duration of the video-chat in the "
+"range of 0.5 - 24 hours. The current value of the video-chat time will be "
+"displayed in the graphical interface of the plugin as a countdown timer. "
+"After the set period of time, the video chat will be stoped."
+msgstr ""
+"Администратор сайта определяет продолжительность видеочата в диапазоне от 0,"
+"5 до 24 часов. Текущее значение времени видеочата будет отображаться в "
+"графическом интерфейсе плагина в виде таймера обратного отсчета. По "
+"истечении установленного периода времени видеочат будет остановлен."
+
+#: class-webrtc2-core.php:568
+msgid ""
+"The site administrator determines whether to place only video chat on the "
+"site page, or add video chat to the content of the site page."
+msgstr ""
+"Администратор сайта определяет, размещать ли на странице сайта только "
+"видеочат, или добавить видеочат в контент страницы сайта."
+
+#: class-webrtc2-core.php:522
+msgid ""
+"The site administrator lists the user name of registered site visitors for "
+"whom video-chat is prohibited. This can be used by the site administrator in "
+"relation to those registered users who violate certain rules on the site."
+msgstr ""
+"Администратор сайта перечисляет имена зарегистрированных посетителей сайта, "
+"для которых запрещен видео-чат. Это может быть использовано администратором "
+"сайта в отношении тех зарегистрированных пользователей, которые нарушают "
+"определенные правила на сайте."
+
+#: class-webrtc2-core.php:536
+msgid ""
+"The site administrator selects a provider that determines the country and "
+"city in the process of registering or login a site visitor. This information "
+"is displayed on the video chat page in table 'Select member from all users', "
+"field 'Land'. In a real situation, the end user, being at home or in the "
+"office, most often has a dynamic, weekly changing IP address of the user's "
+"router, which is assigned to him by the Internet provider. The user can move "
+"from home to office, travel across countries.\n"
+"\t\t\t\t\t\tIf desired, the administrator of the site where this video "
+"connection plug-in is installed can select the\n"
+"\t\t\t\t\t\tWHO-IS service provider option, which passes to the plug-in the "
+"country-city from which the video\n"
+"\t\t\t\t\t\tconnection user is authorized. If the administrator does not "
+"need it, he can disable this option by\n"
+"\t\t\t\t\t\tselecting - None. If you select None, the plugin will not "
+"automatically select the optimal STUN server, but will use the one that will "
+"be registered by the site administrator in field STUN server"
+msgstr ""
+"Администратор сайта выбирает провайдера, который определяет страну и город в "
+"процессе регистрации или авторизации посетителя сайта. Эта информация "
+"отображается на странице видеочата в таблице «Select member from all users», "
+"поле «Land». В реальной ситуации конечный пользователь, находясь дома или в "
+"офисе, чаще всего имеет динамический, еженедельно меняющийся IP-адрес "
+"роутера пользователя, который ему назначает интернет-провайдер. Пользователь "
+"может перемещаться из дома в офис, путешествовать по странам. При желании "
+"администратор сайта, на котором установлен данный плагин видеосвязи, может "
+"выбрать опцию поставщика услуг WHO-IS, которая передает плагину страну-город,"
+" из которого авторизуется пользователь видеосвязи. Если администратору это "
+"не нужно, он может отключить эту опцию, выбрав - None. Если выбрать «None», "
+"плагин не будет автоматически выбирать оптимальный STUN-сервер, а будет "
+"использовать тот, который будет прописан администратором сайта в поле STUN-"
+"сервер."
+
+#: class-webrtc2-core.php:529
+msgid ""
+"The site administrator selects the category of registered visitors for whom "
+"video-chat is available. The site administrator is not involved in video-"
+"chat for security purposes, in order to prevent his login from being "
+"displayed to all other site visitors."
+msgstr ""
+"Администратор сайта выбирает категорию зарегистрированных посетителей, для "
+"которых доступен видео-чат. Администратор сайта не участвует в видео-чате в "
+"целях безопасности, чтобы его логин не отображался для всех остальных "
+"посетителей сайта."
+
+#: class-webrtc2-core.php:720
+msgid "The time zone of the geographic location of the Stun server."
+msgstr "Часовой пояс географического расположения сервера Stun."
+
+#: class-webrtc2-core.php:623
+msgid ""
+"The user's IP address. In most cases, the ip address is dynamic and changes "
+"once a week by the user's Internet provider. In addition, the user can "
+"change the place from which he accesses the Internet (place of residence, "
+"place of work, travel to countries and cities)."
+msgstr ""
+"IP-адрес пользователя. В большинстве случаев ip-адрес динамический и "
+"меняется раз в неделю интернет-провайдером пользователя. Кроме того, "
+"пользователь может изменить место, откуда он выходит в Интернет (место "
+"жительства, место работы, поездки по странам и городам)."
+
+#: class-webrtc2-core.php:561
+msgid ""
+"There are times when a website theme's .css file conflicts with a plugin's ."
+"css file. In this case, the site administrator can adjust the .css of this "
+"plugin at his discretion."
+msgstr ""
+"Иногда файл .css темы веб-сайта конфликтует с файлом .css плагина. В этом "
+"случае администратор сайта может настроить .css этого плагина по своему "
+"усмотрению."
+
+#: class-webrtc2-tbl-srv.php:360
+msgid "Time delay"
+msgstr ""
+
+#: class-webrtc2-core.php:466 class-webrtc2-tbl-srv.php:357
+msgid "Time zone"
+msgstr ""
+
+#: class-webrtc2-core.php:1183
+msgid "TURN server"
+msgstr ""
+
+#: class-webrtc2-tbl-srv.php:135
+msgid "Update"
+msgstr ""
+
+#: class-webrtc2-tbl-stat.php:279
+msgid "User IP"
+msgstr ""
+
+#: class-webrtc2-tbl-stat.php:276
+msgid "User name"
+msgstr ""
+
+#: class-webrtc2-core.php:609
+msgid ""
+"User role. Usually, when registering a user, a role is assigned - subscriber."
+" Only a site administrator can change the role. To make a video connection, "
+"the role of the user does not matter. It is needed by the administrator to "
+"group users. Access of groups (roles) of users to the video call service is "
+"carried out by the site administrator in the settings of this plugin."
+msgstr ""
+"Роль пользователя. Обычно при регистрации пользователю присваивается роль — "
+"subscriber (подписчик). Роль может изменить только администратор сайта. Для "
+"осуществления видеосвязи роль пользователя не имеет значения. Он нужен "
+"администратору для группировки пользователей. Доступ групп (ролей) "
+"пользователей к сервису видеозвонков осуществляется администратором сайта в "
+"настройках данного плагина."
+
+#: class-webrtc2-core.php:616
+msgid ""
+"video connection initiator. The user who calls (invites) another registered "
+"user to a video connection is appointed as the initiator of the connection. "
+"Accordingly, the called user is assigned as the responder. The respondent "
+"can agree to video communication or reject the call (invitation)."
+msgstr ""
+"Инициатор видео соединения. Инициатором соединения назначается пользователь, "
+"который вызывает (приглашает) другого зарегистрированного пользователя к "
+"видеосвязи. Соответственно, вызываемый пользователь называется ответчиком. "
+"Ответчик может согласиться на видеосвязь или отклонить вызов (приглашение)."
+
+#: class-webrtc2-core.php:1162
+msgid "Video-chat"
+msgstr ""
+
+#: class-webrtc2-shortcode.php:455
+msgid "Video-chat available for visitors: "
+msgstr ""
+
+#: class-webrtc2-core.php:1169
+msgid "WHO-IS service"
+msgstr ""
+
+#. Name of the plugin
+#: class-webrtc2-core.php:429 class-webrtc2-core.php:430
+msgid "WP-WebRTC2"
+msgstr ""
+
+#: class-webrtc2-shortcode.php:463
+msgid "your role:"
+msgstr ""
+
+#: class-webrtc2-tbl-srv.php:351 class-webrtc2-tbl-stat.php:275
+msgid "№"
+msgstr ""

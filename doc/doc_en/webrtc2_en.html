@@ -1,0 +1,87 @@
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<style>
+			.h2_overview {
+			color: #008000;
+			background-color: #D4D0C8;
+			text-shadow: 0 1px 3px rgba(0,0,0,.3);
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px #000;
+			text-align:center;
+			font: bold 16px/20px Georgia,"Times New Roman", Times,serif;
+			padding:10px;
+			margin-bottom: 5px;
+		}
+		</style>
+		<title>Instruction WP-WebRTC2</title>
+	</head>
+	<body>
+		<div style="width: 730px; margin: auto; font-size: 14pt;">
+			<h3 style="text-align:center;">Instructions for using the WP-WebRTC2 video-chat plugin</h3>
+			<h2 class="h2_overview">Plugin GUI</h2>
+			<p>The general view of the video-chat plugin is presented below in the form of 7 graphic areas:</p>
+			<p><img style="width:100%;" src="../img/wp-webrtc2-interface_0.png"></p>
+			<p><strong>1. Plugin banner:</strong></p>
+			<p><img src="../img/wp-webrtc2-interface_1.png"><br>In the middle of the banner is a pentagram of browser icons with which this plugin works: Google Chrome, Fire Fox, Edge, Opera, Yandex.</p>
+			<p><strong>2. Window of registered site visitors:</strong></p>
+			<p><img style="float: left;margin-right: 5px;" src="../img/wp-webrtc2-interface_2.png"></p>
+			<p>This is a list of all registered site visitors.<br>In the "Status" field - the color of the light bulb means:<br><img src="../../images/offline.png"><label>: visitor is not on the site.</label><br><img src="../../images/online.png"><label>: visitor is present on the site.</label><br><img src="../../images/invite.png"><label>: visitor invited by someone.</label><br><img src="../../images/hello.png"><label>: visitor accepted your invitation.</label><br><br><br></p>
+			<p><strong>3. Plugin Management Window:</strong></p>
+			<p><img style="float: left;margin-right: 5px;" src="../img/wp-webrtc2-interface_3.png"></p>
+			<p style="margin-top:27px;margin-bottom:5px">invite the person to video-chat</p>
+			<p style="margin-top:7px;margin-bottom:5px">exclude the person from the video-chat</p>
+			<p style="margin-top:8px;">countdown timer</p>
+			<p style="margin-top:-9px;">start a video-chat</p>
+			<p style="margin-top:-9px;">end video-chat</p>
+			<p style="margin-top:25px;">start video-chat recording</p>
+			<p style="margin-top:-10px;">end video-chat recording</p>
+			<b>note</b>: after clicking the <b>Start</b> button for recording a video chat, the invited interlocutor will receive a message that the video call is being recorded by his interlocutor.
+			During the recording of a video chat, the following occurs:<br>
+			1. Recording an audio stream and a video stream of two video chat partners.<br>
+			2. Recording text messages of two video chat partners.<br>
+			3. Recording the drawing process on the drawing board of two video chat interlocutors.<br>
+			4. After clicking the Stop button (end recording the video chat), the user will be prompted to save the result of recording the video chat in <b>.webm</b> format to the local disk.<br>
+			<p><strong>4. A window with a list of two participants in a video-chat:</strong></p>
+			<p><img style="float: left;margin-right: 5px;" src="../img/wp-webrtc2-interface_4.png"></p>
+			<p>In the first row of the table - the owner of the negotiation room, inviting the interlocutor. If you click on his name, you will be taken to his Profile. The button "Choose a file" is used to select a file and transfer it to the interlocutor. Select the file and click the Send button. A progress-bar will appear while the file is being transferred to the interlocutor. Field "message" - enter a message there and click the Send button.</p>
+			<p><strong>5. Combined window for displaying current messages:</strong></p>
+			<p><img style="float: left;" src="../img/wp-webrtc2-interface_5_1.png"></p>
+			<p>button <strong>"Chat"</strong> - display mode of messages of an autoresponder, participants of video-chat.<br>
+			<p><img style="float: left;" src="../img/wp-webrtc2-interface_5_2.png"></p>
+			button <strong>"Dump"</strong> - display mode of the process of establishing a video-chat.<br><br>
+			button <strong>"Clear"</strong> - clear selected message box.<br>
+			button <strong>"Report"</strong> - saves text messages of the autoresponder and participants of video-chat or the protocol of establishing communication - to an external file in HTML format.
+			<p><img style="float: left;" src="../img/wp-webrtc2-interface_5_3.png"></p>
+			button <strong>"Graph"</strong> - graphs showing the current status of the video chat.<br>
+			<p><strong>6,7 Two windows of two participants in a video-chat:</strong></p>
+			<p><img style="float: left;" src="../img/wp-webrtc2-interface_6_7.png"></p>
+			<p>The first window of the video stream is the owner of the meeting room. Clicking on his name will take you to his Profile. In the upper left corner of each window of the video stream is the window number. By clicking on it, you can increase the size of the window with the display of the "picture in picture" mode. Pressing it again will bring the window to its initial position. <br> When you move the mouse cursor to the window number, a menu appears - switches to the computer screen display mode or vice versa - turns on the web camera. <br> The interface is designed in such a way that the buttons are labeled with white colors will not be available. The embedded logic of the plugin's behavior changes the color of the button labels to green or red and will be available if appropriate. This allows you to avoid failure with incorrect use plugin. (<b>important to note</b>: the site administrator does not participate in the video chat for security reasons, in order to prevent his login from being shown to all other site visitors).</p>
+
+			<p><img style="float: left;width:100%;" src="../../images/left_up_corner.png">The participant of the video chat can enlarge his or the interlocutor's window by clicking on the circle (1) or (2) with the display of the 'picture in picture' mode. Pressing again - brings the window back to its original position.</p>
+
+			<p><img style="float: left;width:100%;" src="../../images/left_up_corner_menu.png">When you move the mouse cursor over the circle (1), a drop-down menu of two items appears: <b>screen</b>(or- <b>webcam</b>) and <b>board</b>( or- <b>no board</b>)<br>- screen/webcam - switches the screen of the interlocutor to the mode of sharing your screen or switching to a webcam.<br>- board/no doard - turns the interactive drawing board mode on or off.</p>
+
+			<p><strong>8 Profile of the registered user:</strong></p>
+			<p><img style="float: left;" src="../img/wp-webrtc2-interface_8.png"></p>
+			<p>Added the item - Users for Video chat to the user profile. In the case of a large number of registered users of the site, at this point, for convenience, the user can create his own Contact List for video chat.</p>
+			<p><img style="float: left;width:100%;" src="../img/wp-webrtc2-interface_9.png"></p>
+			<p>Added item Email to the user profile:<br>1. Send video-chat autoresponder messages to my email<br>2. Send video-chat session text messages to my email</p>
+			<h2 class="h2_overview">How to establish a video call</h2>
+			<p>1. Go to the website page under your login, where the shortcode [webrtc2]  is set.</p>
+			<p>2. In the <strong>window of registered visitors of the site</strong>, select the checkbox of the user with whom you want to establish a video connection and click the => button (invite the interlocutor to the video chat).<br>
+			2.1 If the light of the selected user is blue, it means that there is currently no user. In this case, you can only leave him a message on the autoresponder by entering a message in the <b>message</b> field and pressing the <strong>Send</strong> button.<br>
+			2.2 If the selected user's light is yellow, it means that the user is present and will receive a call tone. To find out who is calling - this user can move the mouse cursor over the green light in the <strong>logged in visitors window</strong>.<br>
+			2.3 If the user you call agrees to answer your call, he will select your checkbox and press the => button (invite the other party to the video chat). After a few seconds - both participants in the video call will receive a <strong>Hello</strong> sound signal and the green <strong>Start</strong> button will blink. Both participants in the video link press the <strong>Start</strong> button and the process of establishing a video link will begin. (~ 10 sec).<br>
+			2.4 If the user you called does not agree to answer your call, then after 60 seconds. your call will be automatically cancelled.</p>
+			<p>3. During a video call, you can:<br>
+			3.1 Exchange text messages.<br>
+			3.2 Send files to each other.<br>
+			3.3 Share your screen with each other.<br>
+			3.4 Use an interactive drawing board.</p>
+		</div>
+		<footer>
+		<p style="border-top: 1px solid red;"><img src="../img/BY.gif">Belarus, Minsk © 2019. Developer: Oleg Klenitsky</p>
+		</footer>
+	</body>
+</html>

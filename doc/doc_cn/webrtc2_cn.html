@@ -1,0 +1,81 @@
+<html lang="cn">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<style>
+			.h2_overview {
+			color: #008000;
+			background-color: #D4D0C8;
+			text-shadow: 0 1px 3px rgba(0,0,0,.3);
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px #000;
+			text-align:center;
+			font: bold 16px/20px Georgia,"Times New Roman", Times,serif;
+			padding:10px;
+			margin-bottom: 5px;
+		}
+		</style>
+		<title>指令 WP-WebRTC2</title>
+	</head>
+	<body>
+		<div style="width: 730px; margin: auto; font-size: 14pt;">
+			<h3 style="text-align:center;">WP-WebRTC2 视频聊天插件使用说明</h3>
+			<h2>插件界面</h2>
+			<p>视频聊天插件的一般视图以 7 个图形区域的形式显示如下：</p>
+			<p><img style="width:100%;" src="../img/wp-webrtc2-interface_0.png"></p>
+			<p><strong>1.插件横幅：</strong></p>
+			<p><img src="../img/wp-webrtc2-interface_1.png"><br>横幅的中间是一个五角星形的浏览器图标，该插件可以与该插件一起使用：Google Chrome、Fire Fox、Edge、Opera、Yandex。</p>
+			<p><strong>2、网站注册访客窗口：</strong></p>
+			<p><img style="float: left;margin-right: 5px;" src="../img/wp-webrtc2-interface_2.png"></p>
+			<p>这是所有注册站点访问者的列表。<br>在“状态”字段中 - 灯泡的颜色表示：<br><img src="../../images/offline.png">
+			<label>: 访客不在网站上。</label><br><img src="../../images/online.png"><label>: 访问者出现在网站上。</label><br><img src="../../images/invite.png"><label>: 某人邀请的访客。</label><br><img src="../../images/hello.png"><label>: 访问者接受了您的邀请。</label><br><br><br></p>
+			<p><strong>3. 插件管理窗口：</strong></p>
+			<p><img style="float: left;margin-right: 5px;" src="../img/wp-webrtc2-interface_3.png"></p>
+			<p style="margin-top:27px;margin-bottom:0px">邀请对方进行视频聊天</p>
+			<p style="margin-top:5px;margin-bottom:5px">将此人排除在视频聊天之外</p>
+			<p style="margin-top:5px;">倒计时器</p>
+			<p style="margin-top:-15px;">开始视频聊天</p>
+			<p style="margin-top:-10px;">结束视频聊天</p>
+			<p style="margin-top:25px;margin-bottom:0px">开始视频聊天记录</p>
+			<p style="margin-top:5px;">结束视频聊天记录</p>
+			<b>注意</b>：点击录制视频聊天的<b>开始</b>按钮后，被邀请的对话者将收到一条消息，说明视频通话正在被他的对话者录制。
+			</font></font><p><strong>4. 一个包含视频聊天中两个参与者列表的窗口：</strong></p>
+			<p><img style="float: left;margin-right: 5px;" src="../img/wp-webrtc2-interface_4.png"></p>
+			<p><font style="margin-bottom:10px;">在桌子的第一排 - 谈判室的主人，邀请对话者。 如果您单击他的名字，您将被带到他的个人资料。 “选择文件”按钮用于选择文件并将其传输给对话者。 选择文件并单击发送按钮。 将文件传输给对话者时会出现一个进度条。 “消息”字段 - 在那里输入一条消息，然后单击“发送”按钮。</p><br>
+			<p><strong>5.显示当前消息的组合窗口：</strong></p>
+			<p><img style="float: left;" src="../img/wp-webrtc2-interface_5_1.png"></p>
+			<p>“聊天” 按钮- 自动回复消息的显示模式，视频聊天的参与者。<br>
+			</p><p><img style="float: left;" src="../img/wp-webrtc2-interface_5_2.png"></p><strong>“转储”</strong>
+			按钮- 建立视频聊天过程的显示模式。“清除”<br><br>
+			按钮- 清除选定的消息框。“报告” 按钮- 将自动回复器和视频聊天参与者的文本消息或建立通信的协议保存到 HTML 格式的外部文件中。	<br><p><img style="float: left;" src="../img/wp-webrtc2-interface_5_3.png"></p>“图表”按钮- 显示视频聊天当前状态的图表。<br>
+			<p><strong>6,7 视频聊天中两个参与者的两个窗口：</strong></p>
+			<p><img style="float: left;" src="../img/wp-webrtc2-interface_6_7.png"></p>
+			<p>视频流的第一个窗口是会议室的所有者。单击他的名字将带您到他的个人资料。在视频流的每个窗口的左上角是窗口号。通过单击它，您可以增加显示“画中画”模式的窗口的大小。再次按下将使窗口回到其初始位置。当您将鼠标光标移动到窗口编号时，会出现一个菜单 - 切换到计算机屏幕显示模式，反之亦然 - 打开网络摄像头。<br>界面的设计方式使得标有白色的按钮将不可用。插件行为的嵌入式逻辑将按钮标签的颜色更改为绿色或红色，并在适当时可用。这使您可以避免因错误使用插件而失败。（<b>重要提示</b>：出于安全原因，站点管理员不参与视频聊天，以防止他的登录信息显示给所有其他站点访问者）。</p>
+
+			<p><img style="float: left;width:100%;" src="../../images/left_up_corner.png">视频聊天的参与者可以通过单击带有“画中画”模式显示的圆圈 (1) 或 (2) 来放大他或对话者的窗口。再次按下 - 将窗口带回到原来的位置。</p>
+
+			<p><img style="float: left;width:100%;" src="../../images/left_up_corner_menu.png">当您将鼠标光标移到圆圈 (1) 上时，会出现一个包含两个项目的下拉菜单：<b>屏幕</b>（或-<b>网络摄像头</b>）和 面板</b>（或-<b>无面板</b>）<br>-屏幕/网络摄像头-将对话者的屏幕切换到共享屏幕或切换到网络摄像头的模式。<br>- board/no doard - 打开或关闭交互式绘图板模式。</p>
+
+			<p><strong>8 注册用户简介：</strong></p>
+			<p><img style="float: left;" src="../img/wp-webrtc2-interface_8.png"></p>
+			<p>添加项目 - 视频聊天用户到用户配置文件。在本站注册用户较多的情况下，此时，为方便起见，用户可以创建自己的视频聊天联系人列表。</p>
+			<p><img style="float: left;width:100%;" src="../img/wp-webrtc2-interface_9.png"></p>
+			<p>項目已新增至使用者個人資料 - 電子郵件：<br>1. 將視訊聊天答錄機訊息發送到我的電子郵件<br>2. 將視訊聊天會話簡訊發送到我的電子郵件</p>
+			<h2>如何建立视频通话</h2>
+			<p>1. 转到您登录下的网站页面，其中设置了短代码 [webrtc2]。</p>
+			<p>2. 在<strong>站点的注册访客窗口</strong>中，选中您要与其建立视频连接的用户的复选框，然后单击 =&gt; 按钮（邀请对话者进行视频聊天。<br>
+			2.1 选中的用户灯为蓝色，表示当前没有用户。在这种情况下，您只能通过在消息字段中输入消息并按“发送”按钮在自动回复器上给他留言。<br>
+			2.2 如果选中的用户灯为黄色，表示该用户在场，将收到呼叫音。要找出来电者 - 此用户可以将鼠标光标移到已登录访客窗口 中的绿灯上。<br>
+			2.3 如果您呼叫的用户同意接听您的电话，他将选中您的复选框并按下=&gt;按钮（邀请对方加入视频聊天）。几秒钟后 - 视频通话中的两个参与者都将收到一个<strong>Hello</strong> 声音信号，并且绿色的 <strong>“开始”</strong> 按钮将闪烁。视频链接中的双方都按下<strong>开始</strong>按钮，视频链接的建立过程将开始。（~ 10 秒)。<br>
+			2.4 如果您拨打的用户不同意接听您的电话，则在60秒后。您的通话将自动取消。</p>
+			<p>3. 在视频通话过程中，您可以：<br>
+			3.1 交换短信。<br>
+			3.2 互相发送文件。<br>
+			3.3 彼此共享您的屏幕。<br>
+			3.4 使用交互式绘图板。</p>
+		</div>
+		<footer>
+		<p style="border-top: 1px solid red;"><img src="../img/BY.gif">白俄罗斯,明斯克 © 2019. 开发商：Oleg Klenitsky, 
+		<img src="../img/CN.gif"> 文派翻译: wpfanyi@feibisi.com</font></font></p>
+		</footer>
+	</body>
+</html>

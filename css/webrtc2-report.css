@@ -1,0 +1,153 @@
+/**
+ * Description: CSS for report of fld_dump, fld_chat.
+ *
+ * CSS version 3
+ *
+ * @category   webrtc2-report.css
+ * @package    WP-WebRTC2
+ * @author     Oleg Klenitsky <klenitskiy.oleg@mail.ru>
+ * @version    1.7.4
+ * @license    GPLv2 or later
+ */
+
+/* text chat window */
+#fld_dump_copy, #fld_chat_copy, .info {
+	float:left;
+	background-color: #333333;
+	color: white;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	width: 99%;
+	height: inherit;
+}
+.childs_msg, .childs_channel {
+	float: left;
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	font-size: 14px;
+	border-bottom: 1px dotted green;
+}
+/* collapse and expand text in the message box */
+/* hide checkboxes and content blocks */
+.hide {
+	display: none;
+}
+.hide + label + #sdp, .hide + label + #cnf, .hide + label + #ice_local, .hide + label + #ice_remote,
+.hide + label + #con_stats,
+.hide + label + #statChannel, .hide + label + #dataChannel, .hide + label + #ctxChannel {
+	display: none;
+}
+#ice_local th, #ice_remote th, #ice_local td, #ice_remote td, #con_stats th, #con_stats td,
+#statChannel th, #statChannel td, #dataChannel th, #dataChannel td, #ctxChannel th, #ctxChannel td {
+/*	border: 1px dotted green !important;*/
+	color: white;
+}
+/* make label text */
+#fld_dump_copy span, #fld_chat_copy span {
+	color: blue;
+	float: left;
+	margin-right: 5px;
+}
+.hide + label {
+	padding: 0;
+	color: green;
+	cursor: pointer;
+	display: inline-block;
+}
+.msg {
+	border-bottom: 1px dotted green;
+	padding: 0;
+	color: green;
+	display: inline-block;
+	width: 100%;
+}
+.mod {
+	border-bottom: 1px dotted green;
+	padding: 0;
+	color: silver;
+	display: inline-block;
+	width: 100%;
+}
+.autoresponder {
+	border-bottom: 1px dotted green;
+	padding: 0;
+	color: lime;
+	display: inline-block;
+	width: 100%;
+}
+.err {
+	border-bottom: 1px dotted green;
+	padding: 0;
+	color: brown;
+	display: inline-block;
+	width: 100%;
+}
+
+/* label text view when radio button is active */
+.hide:checked + label {
+	color: red;
+	border-bottom: 0;
+}
+/* when the checkbox is active, we show the blocks with the content */
+.hide:checked + label + #ice_local, .hide:checked + label + #ice_remote, .hide:checked + label + #con_stats,
+.hide:checked + label + #sdp, .hide:checked + label + #cnf,
+.hide:checked + label + #statChannel, .hide:checked + label + #dataChannel, .hide:checked + label + #ctxChannel {
+	width:100%;
+	font-size: 14px;
+	color: white;
+	display: inline-table;
+	background: #333333;
+	-webkit-box-shadow: inset 3px 3px 10px #000000;
+	box-shadow: inset 3px 3px 10px #000000;
+	padding-left: 10px;
+	/* a little animation when */
+	 -webkit-animation:fade ease-in 0.5s;
+	 -moz-animation:fade ease-in 0.5s;
+	 animation:fade ease-in 0.5s;
+}
+/* animation when hidden blocks appear */
+@-moz-keyframes fade {
+	from { opacity: 0; }
+to { opacity: 1 }
+}
+@-webkit-keyframes fade {
+	from { opacity: 0; }
+to { opacity: 1 }
+}
+@keyframes fade {
+	from { opacity: 0; }
+to { opacity: 1 }
+}
+.hide + label:before {
+	background-color: #1e90ff;
+	color: #fff;
+	content: "\002B";
+	display: block;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	height: 14px;
+	line-height: 14px;
+	margin: 3px 5px 3px 0;
+	text-align: center;
+	width: 14px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+.hide:checked + label:before {
+	content: "\2212";
+}
+#lbl_fld_dump, #lbl_fld_chat {
+	display: inline-block;
+	border-bottom: 1px dotted green;
+	background-color: #333333;
+	width:100%;
+	height:20px;
+	color:white;
+	font-weight:normal;
+	white-space: nowrap;
+}
